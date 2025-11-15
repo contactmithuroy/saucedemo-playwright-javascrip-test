@@ -1,15 +1,13 @@
 # SauceDemo Automation with Playwright and JavaScript
 Automated Playwright test that logs in, adds one product to the cart, verifies product name in cart, and logs out.
-**Login → Add to Cart → Verify → Logout** — Fully automated, **100% verified**, **ready to run**!
-
-## What This Does (In 5 Seconds)
+**Login → Add to Cart → Verify → Logout** — **ready to run**!
 
 ```bash
 1. Opens https://www.saucedemo.com/
 2. Logs in as standard_user
 3. Adds "Sauce Labs Backpack" to cart
 4. Verifies product name in cart
-5. Logs out cleanly
+5. Logs out 
 ```
 
 ## Prerequisites
@@ -44,3 +42,6 @@ Running 1 test using 1 worker
   [Chromium] › sauce-demo.spec.js:3 › Login, add product, verify cart, logout
   1 passed (4.8s)
 ```
+## Output
+
+<img width="700" height="320" alt="image" src="https://github.com/user-attachments/assets/076613c6-d689-46cc-9173-90ed9bda46aa" />
