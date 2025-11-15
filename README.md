@@ -15,19 +15,21 @@ Automated Playwright test that logs in, adds one product to the cart, verifies p
 3. `npx playwright install`
 
 ## Setup
-
 ```bash
 # 1. Clone the repo and setup
 git clone https://github.com/contactmithuroy/saucedemo-playwright-javascrip-test.git
 cd saucedemo-playwright-javascrip-test
+```
+## Run Prerequisites
+```bash
 npm install
 npx playwright install
 ```
-## Run in Headless Mode
+## Run Test Case in Headless Mode
 ```bash
 npx playwright test
 ```
-## Run in Visual Mode
+## Run Test Case in Visual Mode
 ```bash
 npm run test:visual
 ```
@@ -43,5 +45,3 @@ Running 1 test using 1 worker
   1 passed (4.8s)
 ```
 ## Output
-
-<img width="700" height="320" alt="image" src="https://github.com/user-attachments/assets/076613c6-d689-46cc-9173-90ed9bda46aa" />
