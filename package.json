@@ -1,0 +1,12 @@
+{
+  "name": "sauce-demo-automation",
+  "version": "1.0.0",
+  "description": "Playwright test: Login → Add to Cart → Verify → Logout",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:visual": "npx playwright test --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0"
+  }
+}
